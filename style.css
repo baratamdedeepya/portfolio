@@ -58,7 +58,19 @@ overflow: hidden;
   z-index: 1;        
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
-
+.resume-btn
+{
+  margin-top: 3%;
+  background-color: var(--primary-color);
+  color: white !important;
+  border: none;
+  padding: 2%;
+  border-radius: 5px !important;
+}
+.first a{
+  text-decoration: none;
+  color: white !important;
+}
 .first h1{
   overflow: hidden;
 
