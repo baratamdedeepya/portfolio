@@ -3,9 +3,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <p>hello</p>
+  <nav data-aos="slide-down" data-aos-duration="1000" class="navbar navbar-expand-md  fixed-top  px-sm-5 py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand brand fw-bold" style="color: rgb(171,110,138);" href="#home">My <span>Portfolio</span></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse d-md-flex justify-content-end navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav navigations" id="navitems">
+              <li class="nav-item "> <a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+              <li class="nav-item "> <a class="nav-link active" aria-current="page" href="#about">About</a></li>
+              <li class="nav-item "> <a class="nav-link active" aria-current="page" href="#skills">Skills</a></li>
+              <li class="nav-item "> <a class="nav-link active" aria-current="page" href="#project">Work</a></li>
+              <li class="nav-item "> <a class="nav-link active" aria-current="page" href="#cigai">Project</a></li>
+              <li class="nav-item "> <a class="nav-link active" aria-current="page" href="#contact">Contact</a></li>
+             
+            </ul>
+            
+          </div>
+        </div>
+  </nav>
+  <section id="home">
+        <div class="first">
+         <h1>Hi there! My name is Dedeepya and</h1>
+         <h2>I'm a frontend developer</h2>
+         </div>
+  </section>
+  <section id="about" class="text-center">
+        <h3>ABOUT</h3>
+              <div class="line1 mt-3 mb-3"></div>
+              <p>I’m <span class="dedeepya">Dedeepya</span>, a Frontend Developer and BTech IT student interested in building modern web interfaces.
+                 I enjoy creating clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript.
+                My focus is on writing structured code and designing layouts that work well across different screen sizes.
+                I like adding simple animations and interactions to improve user experience.
+                I’m continuously strengthening my JavaScript fundamentals by building small projects.
+                I’m looking for frontend internships or entry-level opportunities where I can learn and grow through real-world experience.
+              </p>
+              <!-- <div class="edu">
+                <div class="card">
+
+                </div>
+              </div> -->
+  </section>
+  <section id="education" class="education-section">
+      <h3 class="text-center">Education</h3>
+      <div class="line1"></div>
+           <div class="tedu d-flex justify-content-center align-items-center">
+              <div class="timeline   justify-content-center">
+                  <div class="timeline-item">
+                   <div class="dot"></div>
+                   <div class="content">
+                         <h4>B.Tech – Information Technology</h4>
+                         <span>Aditya Institute of Technology and Management | 2024 – Present</span>
+                         <p>
+                            Currently pursuing my undergraduate degree, focusing on web
+                            development, programming fundamentals, and problem-solving.
+                        </p>
+                  </div>
+                  </div>
+
+                 <div class="timeline-item">
+                 <div class="dot"></div>
+                 <div class="content">
+                      <h4>Intermediate (12th Grade)</h4>
+                      <span>Sri Chaitanya | 2022 – 2024</span>
+                      <p>
+                         Completed intermediate education with a strong foundation in
+                          mathematics and logical reasoning.
+                      </p>
+                </div>
+               </div>
+
+              <div class="timeline-item">
+              <div class="dot"></div>
+              <div class="content">
+                   <h4>Secondary School (10th Grade)</h4>
+                   <span>Saint claret | 2021 – 2022</span>
+                   <p>
+                        Built strong academic fundamentals and developed interest in
+                        technology.
+                    </p>
+              </div>
+              </div>
+         </div>
+  </div>
+</section>
+
+  <section id="skills" class="text-center">
+          <h3>SKILLS</h3>
+          <div class="line2 mt-3 mb-3"></div>
+          <div class="line">
+          <div class="rounded-circle" ><p>HTML</p></div>
+          <div class="rounded-circle"><p>CSS</p></div>
+          <div class="rounded-circle"><p>JS</p></div>
+           <div class="rounded-circle"><p>GIT</p></div>
+          <div class="rounded-circle"><p>PYTHON</p></div>
+          <div class="rounded-circle"><p>C</p></div>
+         </div>
+  </section>
+  <section id="project">
+     <h3>WORK</h3>
+    <div class="line3 mt-3 mb-3"></div>
+    <div class="works">
+      <div class="col-md-3">
+        <div class="card work-card">
+           <div class="card-body">
+              <h5 class="card-title">Treact Website</h5>
+
+                <div class="work-scroll">
+                   <img src="treact1.png" alt="" class="img-fluid mb-3" >
+                   <img src="treat2.png" alt="" class="img-fluid mb-3" >
+                   <img src="treact3.png" alt="" class="img-fluid mb-3">
+                   <img src="treact4.png" alt="" class="img-fluid mb-3">
+                   <img src="treact5.png" alt="" class="img-fluid mb-3">
+                   <img src="trecat6.png" alt="" class="img-fluid mb-3">
+                   <img src="treact8.png" alt="" class="img-fluid mb-3">
+                   <img src="trecat9.png" alt="" class="img-fluid mb-3">
+                   <img src="trecat10.png" alt="" class="img-fluid mb-3">
+                   <img src="treact11.png" alt="" class="img-fluid mb-3">
+        
+                </div>
+            </div>
+        </div>
+      </div>
+
+       <div class="col-md-3">
+        <div class="card work-card">
+           <div class="card-body">
+              <h5 class="card-title">Boot-Strap Website</h5>
+
+                <div class="work-scroll">
+                   <img src="boot1.png" alt="" class="img-fluid mb-3" >
+                   <img src="boot2.png" alt="" class="img-fluid mb-3" >
+                   <img src="boot3.png" alt="" class="img-fluid mb-3">
+                   <img src="boot4.png" alt="" class="img-fluid mb-3">
+                   <img src="boot5.png" alt="" class="img-fluid mb-3">
+                   <img src="boot6.png" alt="" class="img-fluid mb-3">
+                 
+                </div>
+            </div>
+        </div>
+      </div> 
+
+      <div class="col-md-3">
+        <div class="card work-card">
+           <div class="card-body">
+              <h5 class="card-title">Restaurant Website</h5>
+
+                <div class="work-scroll">
+                   <img src="rest1 (2).png" alt="" class="img-fluid mb-3" >
+                   <img src="rest2.png" alt="" class="img-fluid mb-3" >
+                   <img src="rest3.png" alt="" class="img-fluid mb-3">
+                  
+                 
+                </div>
+            </div>
+        </div>
+      </div>
+   </div>
+  </section>
+  <section id="cigai">
+      <h3>PROJECT</h3>
+      <div class="line2 mt-3 mb-3"></div>
+  <div class="main ">
+     <div class="matter">
+            <h1 class="text-center mt-5">CIGAI</h1>
+            <div class="line1"></div>
+            <p >
+              The International Conference on Mathematical Modeling in Computational Intelligence and Generative AI (CIGAI) brings together researchers, academicians, and industry experts to explore the convergence of mathematical models, computational intelligence, and generative AI.
+              </p>
+              <a href="https://cigai.in/" target="_blank">visit here</a>
+            <p>This project was a valuable learning experience that allowed me to grow as a frontend developer. Throughout the development process, I explored new web technologies, strengthened my fundamentals, and improved my ability to create responsive and user-friendly interfaces. It played an important role in enhancing my technical and problem-solving skills.</p>
+    </div>
+
+      <div class="col-md-6 text-center m-auto">
+        <div class="card cigai-card">
+           <div class="card-body">
+              <h5 class="card-title tetx-start">CIGAI Website</h5>
+
+                <div class="cigai-scroll">
+                    <img src="cigai1.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai2.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai3.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai4.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai5.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai6.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai7.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai8.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai9.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai10.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai11.png" alt="" class="img-fluid mb-3">
+                    <img src="cigai12.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai13.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai14.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai15.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai16.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai17.png" alt="" class="img-fluid mb-3" >
+                    <img src="cigai18.png" alt="" class="img-fluid mb-3" >
+                </div>
+            </div>
+        </div>
+    </div> 
+  
+ </div>
+  </section>
+  <section id="certificates">
+        
+      <h3 class="text-center">CERTIFICATES</h3>
+      <div class="line1 mt-3 mb-3"></div>
+     <div class="cmian d-flex justify-content-center align-items-center flex-wrap gap-4 mb-5">
+       <div class="card text-center col-md-4 c-card">
+        <div class="card-body">
+          <i class="fa-solid fa-robot"></i>
+          <h4>Build Bharat Trough AI</h4 >
+          <p>Participated in the Build Bharat through AI Hackathon at Andhra University, focused on AI-driven innovation.</p>
+          <button type="button" class="btn1"  >  <a href="bharat.jpeg" target="_blank" class="view"> View Certificate</a></button>
+        </div>
+       </div>
+
+        <div class="card text-center col-md-4 c-card">
+        <div class="card-body">
+          <i class="fa-solid fa-code"></i>
+          <h4>Code Neurons</h4>
+          <p>Participated in Code Neuron at AITAM Tekkali, enhancing my coding, logical thinking, and problem-solving abilities.</p>
+             <button type="button" class="btn1"  >  <a href="code neuron.jpeg" target="_blank" class="view"> View Certificate</a></button>
+        </div>
+       </div>
+
+        <div class="card text-center col-md-4 c-card">
+        <div class="card-body">
+          <i class="fa-solid fa-brain"></i>
+          <h4>Aignite Hackathon</h4>
+          <p>Participated in Aignite Hackathon held at AITAM Tekkali, gaining hands-on experience with Python, its libraries, and AI model development.</p>
+          <button type="button" class="btn1"  >  <a href="aiginite.jpeg" target="_blank" class="view"> View Certificate</a></button>
+        
+        </div>
+       </div>
+     </div>
+  </section>
+  <section id="contact">
+      <h3 class="text-center">CONTACT</h3>
+      <div class="line1 mt-3 mb-3"></div>
+       <div class="contact">
+       <div class="card card-c">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-regular fa-envelope"></i>   E-mail</h5>
+            <p class="card-text">bartamdedeepya3@gmail.com</p>
+          </div>
+        </div>
+        <div class="card card-c"> 
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-phone"></i>Contact number</h5>
+            <p class="card-text">+91 9030250434</p>
+        </div>
+      </div>
+        <div class="card card-c">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-share-nodes "></i> Social media</h5>
+             <a href="mailto:bartamdedeepya3@gmail.com " class="btn "> <i class="fa-regular fa-envelope"></i></a>
+           <a href="" class="btn "> <i class="fa-brands fa-linkedin-in i1"></i></a>
+            <a href="" class="btn ">  <i class="fa-brands fa-github"></i></a>
+             <!--<p class="card-text"><i class="fa-brands fa-linkedin-in i1"></i> <i class="fa-brands fa-instagram i2 text-center"></i></p> -->
+           
+          </div>
+        </div>  
+  </section>
+ <footer class="text-center ">
+    <p>&copy; 2026 Dedeepya. All rights reserved.</p>
+  </footer>
 </body>
 </html>
